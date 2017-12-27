@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/*--------------------- Text vlak ---------------------*/
+.textvlak{
+padding-left: 5%;
+padding-right: 5%;
+}
+
+/*------------------------------- Mobiel versie Desktop -------------------------------*/
+@media only screen and (min-width: 768px) {
+
+.grid {
+	display: grid;
+	grid-template-columns: 50vw 50vw;
+	grid-template-rows: 100vh 100vh 100vh 100vh;
+	grid-template-areas:
+	"section1 section2"
+	"section3 section4"
+	"section5 section6"
+	"section7 section8";
+  /* grid-gap: 10px; */
+
+}
+
+/*--------------------- Section1 ---------------------*/
+.section1{
+  grid-area: section1;
+  background: #363435; /*gray*/
+  color:white;
+}
+
+/*--------------------- Section2 ---------------------*/
+.section2{
+  grid-area: section2;
+  background: #f2f7ed; /*white*/
+
+}
+
+/*--------------------- Section3 ---------------------*/
+.section3{
+  grid-area: section3;
+  background: #f2f7ed; /*white*/
+}
+
+/*--------------------- Section4 ---------------------*/
+.section4{
+  grid-area: section4;
+  background: #363435; /*gray*/
+  color:white;
+}
+
+/*--------------------- Section5 ---------------------*/
+.section5{
+  grid-area: section5;
+  background:#363435; /*gray*/
+  color:white;
+}
+
+/*--------------------- Section6 ---------------------*/
+.section6{
+  grid-area: section6;
+  background: #f2f7ed; /*white*/
+}
+
+/*--------------------- Section7 ---------------------*/
+.section7{
+  grid-area: section7;
+  background: #f2f7ed; /*white*/
+}
+
+/*--------------------- Section8 ---------------------*/
+.section8{
+  grid-area: section8;
+  background: #363435; /*gray*/
+  color:white;
+}
+
+
+
+
+
+}/*media Query Desktop*/
+
+
+
+/*------------------------------- Mobiel versie -------------------------------*/
+@media only screen and (max-width: 768px) {
+  .grid {
+  	display: grid;
+  	grid-template-columns: 100vw;
+  	grid-template-rows: 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh;
+  	grid-template-areas:
+  	"section1"
+    "section2"
+  	"section4"
+    "section3"
+  	"section5"
+    "section6"
+  	"section8"
+    "section7";
+    /* grid-gap: 10px; */
+
+  }
+
+  /*--------------------- Mobiel Section1 ---------------------*/
+  .section1{
+    grid-area: section1;
+    background: RGB(220, 225, 30); /*yellow*/
+  }
+
+  /*--------------------- Mobiel Section2 ---------------------*/
+  .section2{
+    grid-area: section2;
+    background: RGB(89, 103, 166); /*Blue*/
+  }
+
+  /*--------------------- Mobiel Section3 ---------------------*/
+  .section3{
+    grid-area: section3;
+    background: RGB(89, 103, 166); /*Blue*/
+  }
+
+  /*--------------------- Mobiel Section4 ---------------------*/
+  .section4{
+    grid-area: section4;
+    background: RGB(220, 225, 30); /*yellow*/
+  }
+
+  /*--------------------- Mobiel Section5 ---------------------*/
+  .section5{
+    grid-area: section5;
+    background: RGB(220, 225, 30); /*yellow*/
+  }
+
+  /*--------------------- Mobiel Section6 ---------------------*/
+  .section6{
+    grid-area: section6;
+    background: RGB(89, 103, 166); /*Blue*/
+  }
+
+  /*--------------------- Mobiel Section7 ---------------------*/
+  .section7{
+    grid-area: section7;
+    background: RGB(89, 103, 166); /*Blue*/
+  }
+
+  /*--------------------- Mobiel Section8 ---------------------*/
+  .section8{
+    grid-area: section8;
+    background: RGB(220, 225, 30); /*yellow*/
+  }
+
+}/*Media Query Mobiel*/
