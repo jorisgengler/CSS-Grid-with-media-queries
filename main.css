@@ -15,19 +15,96 @@ padding-left: 5%;
 padding-right: 5%;
 }
 
-/*------------------------------- Mobiel versie Desktop -------------------------------*/
+/*--------------------- foto's ---------------------*/
+.fotoright{
+  width: 97%;
+  height: auto;
+  padding-left: 11%;
+  padding-top: 7%;
+}
+.fotoleft{
+  width: 97%;
+  height: auto;
+  margin-left: -7%;
+  padding-top: 7%;
+}
+
+/*-------------------------------- Navbar -------------------------------*/
+
+nav /*boven*/
+{
+	background: darkslategray;
+	opacity: 1;
+  position: sticky;
+  list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	z-index: 50;
+}
+
+nav ul /* navagatie bar */
+{
+    background: linear-gradient(90deg,
+     rgba(33, 91, 155, 0.6) 0%,
+     rgba(33, 91, 155, 0.6) 25%,
+     rgba(33, 91, 155, 0.6) 75%,
+     rgba(33, 91, 155, 0.6) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+     inset 0 0 1px rgba(255, 255, 255, 0.6);
+     width: 100vw;
+
+
+}
+
+nav ul li
+{
+    display: inline-block;
+}
+
+nav ul li a /* Tekst navagatie bar */
+{
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: arial, helvetica, sans-serif;
+    text-decoration: none;
+    display: block;
+ }
+
+ nav ul li a:hover {
+	background-color: #363435;
+}
+
+
+
+
+
+
+/*-------------------------------- Desktop versie -------------------------------*/
 @media only screen and (min-width: 768px) {
 
 .grid {
 	display: grid;
 	grid-template-columns: 50vw 50vw;
-	grid-template-rows: 100vh 100vh 100vh 100vh;
+	grid-template-rows: 100vh 100vh 100vh 100vh 100vh;
 	grid-template-areas:
+	"home home"
 	"section1 section2"
 	"section3 section4"
 	"section5 section6"
 	"section7 section8";
   /* grid-gap: 10px; */
+
+}
+/*--------------------- Home ---------------------*/
+.home{
+  grid-area: home;
+  background-image: url("web_images/Homeachtergrond.JPG");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
@@ -97,8 +174,9 @@ padding-right: 5%;
   .grid {
   	display: grid;
   	grid-template-columns: 100vw;
-  	grid-template-rows: 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh;
+  	grid-template-rows: 100vh 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   	grid-template-areas:
+		"home"
   	"section1"
     "section2"
   	"section4"
@@ -110,53 +188,66 @@ padding-right: 5%;
     /* grid-gap: 10px; */
 
   }
+	/*--------------------- Home ---------------------*/
+	.home{
+	  grid-area: home;
+	  background-image: url("web_images/Homeachtergrond.JPG");
+	  background-attachment: fixed;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
 
+	}
   /*--------------------- Mobiel Section1 ---------------------*/
   .section1{
     grid-area: section1;
-    background: RGB(220, 225, 30); /*yellow*/
+    background: #363435; /*gray*/
+		color:white;
   }
 
   /*--------------------- Mobiel Section2 ---------------------*/
   .section2{
     grid-area: section2;
-    background: RGB(89, 103, 166); /*Blue*/
+    background: #f2f7ed; /*white*/
   }
 
   /*--------------------- Mobiel Section3 ---------------------*/
   .section3{
     grid-area: section3;
-    background: RGB(89, 103, 166); /*Blue*/
+    background: #f2f7ed; /*white*/
   }
 
   /*--------------------- Mobiel Section4 ---------------------*/
   .section4{
     grid-area: section4;
-    background: RGB(220, 225, 30); /*yellow*/
+  	background: #363435; /*gray*/
+	  color:white;
   }
 
   /*--------------------- Mobiel Section5 ---------------------*/
   .section5{
     grid-area: section5;
-    background: RGB(220, 225, 30); /*yellow*/
+    background: #363435; /*gray*/
+	  color:white;
   }
 
   /*--------------------- Mobiel Section6 ---------------------*/
   .section6{
     grid-area: section6;
-    background: RGB(89, 103, 166); /*Blue*/
+    background: #f2f7ed; /*white*/
   }
 
   /*--------------------- Mobiel Section7 ---------------------*/
   .section7{
     grid-area: section7;
-    background: RGB(89, 103, 166); /*Blue*/
+    background: #f2f7ed; /*white*/
   }
 
   /*--------------------- Mobiel Section8 ---------------------*/
   .section8{
     grid-area: section8;
-    background: RGB(220, 225, 30); /*yellow*/
+    background: #363435; /*gray*/
+	  color:white;
   }
 
 }/*Media Query Mobiel*/
