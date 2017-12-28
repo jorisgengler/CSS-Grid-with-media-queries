@@ -76,12 +76,65 @@ nav ul li a /* Tekst navagatie bar */
 	background-color: #363435;
 }
 
+/*-------------------------------- Skils blok -------------------------------*/
+.skillstitle{
+	text-align:center;
+}
 
+.skillsblok2{
+	background-color: darkslategray;
+	margin-left:3%;
+	margin-right:5%;
+	padding-bottom:10px;
+	margin-top: 10px;
+	min-height:92vh
+}
 
+.skillsblok1{
+	margin: 3%;
+	margin-right: 50%;
+}
 
+.container1 {
+	width: 80%;
+	background-color: #ddd;
+}
 
+.skillsblok {
+	text-align: right;
+	padding-right: 20px;
+	line-height: 40px;
+	color: white;
 
-/*-------------------------------- Desktop versie -------------------------------*/
+}
+
+.html {
+	width: 90%;
+	background-color: #b70909;
+	}
+
+.css {
+	width: 70%;
+	background-color: #0d3cd8;
+	}
+
+.javascript {
+	width: 20%;
+	background-color: #08d319;
+	}
+
+.php
+{
+	width: 10%;
+	background-color: #cc990e;
+	}
+
+.mysql{
+	width: 10%;
+	background-color: #cccc33;
+}
+
+/*--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Desktop versie ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^--*/
 @media only screen and (min-width: 768px) {
 
 .grid {
@@ -97,7 +150,7 @@ nav ul li a /* Tekst navagatie bar */
   /* grid-gap: 10px; */
 
 }
-/*--------------------- Home ---------------------*/
+/*--------------------- Desktop Home ---------------------*/
 .home{
   grid-area: home;
   background-image: url("web_images/Homeachtergrond.JPG");
@@ -108,53 +161,53 @@ nav ul li a /* Tekst navagatie bar */
 
 }
 
-/*--------------------- Section1 ---------------------*/
+/*--------------------- Desktop Section1 ---------------------*/
 .section1{
   grid-area: section1;
   background: #363435; /*gray*/
   color:white;
 }
 
-/*--------------------- Section2 ---------------------*/
+/*--------------------- Desktop Section2 ---------------------*/
 .section2{
   grid-area: section2;
   background: #f2f7ed; /*white*/
 
 }
 
-/*--------------------- Section3 ---------------------*/
+/*--------------------- Desktop Section3 ---------------------*/
 .section3{
   grid-area: section3;
   background: #f2f7ed; /*white*/
 }
 
-/*--------------------- Section4 ---------------------*/
+/*--------------------- Desktop Section4 ---------------------*/
 .section4{
   grid-area: section4;
   background: #363435; /*gray*/
   color:white;
 }
 
-/*--------------------- Section5 ---------------------*/
+/*--------------------- Desktop Section5 ---------------------*/
 .section5{
   grid-area: section5;
   background:#363435; /*gray*/
   color:white;
 }
 
-/*--------------------- Section6 ---------------------*/
+/*--------------------- Desktop Section6 ---------------------*/
 .section6{
   grid-area: section6;
   background: #f2f7ed; /*white*/
 }
 
-/*--------------------- Section7 ---------------------*/
+/*--------------------- Desktop Section7 ---------------------*/
 .section7{
   grid-area: section7;
   background: #f2f7ed; /*white*/
 }
 
-/*--------------------- Section8 ---------------------*/
+/*--------------------- Desktop Section8 ---------------------*/
 .section8{
   grid-area: section8;
   background: #363435; /*gray*/
@@ -169,7 +222,7 @@ nav ul li a /* Tekst navagatie bar */
 
 
 
-/*------------------------------- Mobiel versie -------------------------------*/
+/*--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Mobiel versie ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^--*/
 @media only screen and (max-width: 768px) {
   .grid {
   	display: grid;
@@ -188,7 +241,7 @@ nav ul li a /* Tekst navagatie bar */
     /* grid-gap: 10px; */
 
   }
-	/*--------------------- Home ---------------------*/
+	/*--------------------- Mobiel Home ---------------------*/
 	.home{
 	  grid-area: home;
 	  background-image: url("web_images/Homeachtergrond.JPG");
@@ -196,7 +249,6 @@ nav ul li a /* Tekst navagatie bar */
 	  background-position: center;
 	  background-repeat: no-repeat;
 	  background-size: cover;
-
 	}
   /*--------------------- Mobiel Section1 ---------------------*/
   .section1{

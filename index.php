@@ -46,9 +46,9 @@
 			<div class="textvlak">
 				<p>
 					Deze site is opgebouwd in CSS-Grid en heeft de volgende functies,<br><br>
-					<li>Scrollreveal</li><br>
-					<li>Smooth page scroll</li><br>
-					<li>Media queries (onder de 768px zullen de secties onderelkaar staan)</li><br>
+					<li>Scrollreveal ( Elementen komen van buiten de website binnen )</li><br>
+					<li>Smooth page scroll ( Doormiddel van de navagatie knoppen zal de pagina scrollen )</li><br>
+					<li>Media queries ( onder de 768px zullen de secties onderelkaar staan )</li><br>
 
 				</p>
 			</div>
@@ -65,11 +65,52 @@
 
   <div id="section4" class="section4">
 		<div class="section1text">
-			<center><h1>Head 1</h1></center></br>
-			<div class="textvlak">
-				<p>
-			Nullam vel suscipit lectus. Phasellus felis sem, semper a rutrum quis, consequat at leo. Nulla imperdiet neque eu ante ultricies sollicitudin non at sem. Praesent vehicula luctus libero non convallis. Donec eu mauris nisl. Nullam efficitur libero nec lorem vestibulum, ut sagittis odio commodo. Praesent accumsan nisl dolor, eget finibus augue fringilla eget. Nam egestas bibendum ornare. Quisque quam turpis, gravida vel risus at, aliquet viverra purus. Pellentesque pulvinar tortor a quam bibendum, quis mattis metus lobortis. Curabitur lacus ligula, semper vitae finibus eu, dictum a arcu. Pellentesque placerat, orci nec rutrum condimentum, arcu nisl pellentesque tortor, id auctor eros ex eget lorem. Morbi ut nulla id nisl elementum consectetur eget at felis.
-				</p>
+
+					<center><h1>Skills</h1></center></br>
+					<p>Voor meer info kunt u op het balkje kliken</p>
+				<div class="fotoright">
+					<div class="skillsblok1">
+
+						<p1>HTML</p1>
+						<a style="text-decoration: none;" href="#">
+					<div class="container1">
+						<div class="skillsblok html">95%</div>
+					</div>
+					</a>
+					<br>
+
+						<p1>CSS</p1>
+					<a style="text-decoration: none;" href="#">
+					<div class="container1">
+						<div class="skillsblok css">70%</div>
+					</div>
+					</a>
+					<br>
+
+						<p1>JAVASCRIPT</p1>
+					<a style="text-decoration: none;" href="#">
+					<div class="container1">
+						<div class="skillsblok javascript">20%</div>
+					</div>
+					</a>
+					<br>
+
+						<p1>PHP</p1>
+					<a style="text-decoration: none;" href="#">
+					<div class="container1">
+						<div class="skillsblok php">10%</div>
+					</div>
+					</a>
+					<br>
+
+					<p1>MySQL</p1>
+					<a style="text-decoration: none;" href="#">
+				<div class="container1">
+					<div class="skillsblok mysql">10%</div>
+				</div>
+				</a>
+
+				</div>
 			</div>
     </div>
   </div>
