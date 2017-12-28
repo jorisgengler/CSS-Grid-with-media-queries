@@ -1,9 +1,9 @@
 # CSS-Grid with Media Query
 ---
- Desktop version:
-* Grid next to each other<br>
-* Color white and gray
+[www.grid.jorisgengler.nl](https://www.grid.jorisgengler.nl/)
+---
+Deze site is opgebouwd in CSS-Grid en heeft de volgende functies,
 
-Mobile version:
-* Grid below each other
-* Color yellow and blue
+* Scrollreveal
+* Smooth page scroll
+* Media queries (onder de 768px zullen de secties onderelkaar staan)
