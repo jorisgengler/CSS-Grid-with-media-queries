@@ -75,8 +75,8 @@
 
 						<p1>HTML</p1>
 						<a title="
-•	Structuur
-•	Navbar(horizontal/vertical)
+•	Structuur 100%
+•	Navbar(horizontal/vertical) 100%
 						" style="cursor:help; text-decoration:none">
 					<div class="container_html">
 						<div class="skillsblok html">95%</div>
@@ -86,10 +86,10 @@
 
 						<p1>CSS</p1>
 						<a title="
-•	CSS-Grid
-•	Hover
-•	Media queries (Mobiel/Desktop)
-•	Flex-box
+•	CSS-Grid 50%
+•	Hover 100%
+•	Media queries (Mobiel/Desktop) 100%
+•	Flex-box 50%
 						" style="cursor:help; text-decoration:none">
 					<div class="container_css">
 						<div class="skillsblok css">70%</div>
@@ -99,12 +99,14 @@
 
 						<p1>JAVASCRIPT</p1>
 						<a title="
-•	Onload funtie
-•	Opject verwisselen per week
-•	Element draaien
+•	Onload funtie 100%
+•	Opject verwisselen per week 100%
+•	Element draaien 100%
 •	Get by week 50%
-•	Navbar highlite by click
-•	Get data (datum)
+•	Navbar highlite by click 100%
+•	Get data 100% (datum)
+•	Ajax 10% (text load in html)
+•	Json 5%
 						" style="cursor:help; text-decoration:none">
 					<div class="container_javascript">
 						<div class="skillsblok javascript">20%</div>
@@ -114,9 +116,9 @@
 
 						<p1>PHP</p1>
 						<a title="
-•	MySQL (data in de database zetten)
-•	Contact formulier
-•	Reservering formulier
+•	MySQL (data in de database zetten) 100%
+•	Contact formulier 80%
+•	Reservering formulier 80%
 						" style="cursor:help; text-decoration:none">
 					<div class="container_php">
 						<div class="skillsblok php">10%</div>
