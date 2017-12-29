@@ -43,6 +43,7 @@
 		<br><br><br><br><br>Scroll naar beneden voor meer, of navigeer met de buttons.
 	</div>
 
+<!--_________________________________ Section1 _________________________________-->
   <div id="section1" class="section1">
     <div class="section1text">
 			<center><h1>Head 1</h1></center></br>
@@ -57,14 +58,17 @@
     </div>
   </div>
 
+<!--_________________________________ Section2 _________________________________-->
   <div id="section2" class="section2">
  		<div id="object1" class="object1"><img class ="fotoright" src="web_images/section1.jpg" alt="Plank met stokbrood"></div>
   </div>
 
+<!--_________________________________ Section3 _________________________________-->
   <div id="section3" class="section3">
  		<img class ="fotoleft" src="web_images/section3.jpg" alt="Plank met stokbrood">
   </div>
 
+<!--_________________________________ Section4 _________________________________-->
   <div id="section4" class="section4">
 		<div class="section1text">
 
@@ -126,13 +130,12 @@
 						</a>
 					<br>
 
-
-
 				</div>
 			</div>
     </div>
   </div>
 
+<!--_________________________________ Section5 _________________________________-->
   <div id="section5" class="section5">
 		<div class="section1text">
 			<center><h1>Head 1</h1></center></br>
@@ -144,14 +147,17 @@
     </div>
   </div>
 
+<!--_________________________________ Section6 _________________________________-->
   <div id="section6" class="section6">
 		<img class ="fotoright" src="web_images/section6.jpg" alt="Plank met stokbrood">
   </div>
 
+<!--_________________________________ Section7 _________________________________-->
   <div id="section7" class="section7">
 		<img class ="fotoleft" src="web_images/section7.jpg" alt="Plank met stokbrood">
 	</div>
 
+<!--_________________________________ Section8 _________________________________-->
   <div id="section8" class="section8">
 		<center><h1>Contact</h1></center></br>
 
@@ -177,14 +183,16 @@
 </div> <!--end grid-->
 
   <!-- javascript-->
+
+	<!-- Scroll-->
 	<script src="javascript/jquery.js"></script>
 	<script src="javascript/jquery.easing.1.3.min.js"></script>
 	<script src="javascript/jquery.smoothPageScroll.js" type="text/javascript"></script>
 	<script src="javascript/jquery.scroll.js" type="text/javascript"></script>
 
+	<!-- Photo inside page-->
 	<script src="javascript/scrollphoto.js" type="text/javascript"></script>
 
-	<script src="modalelement.js" type="text/javascript"></script>
 
 
 </body>
