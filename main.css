@@ -97,23 +97,23 @@ nav ul li a /* Tekst navagatie bar */
 
 .container_html {
 	width: 80%;
-	background-color: #ddd;
+	/* background-color: #ddd; */
 }
 .container_css {
 	width: 80%;
-	background-color: #ddd;
+	/* background-color: #ddd; */
 }
 .container_javascript {
 	width: 80%;
-	background-color: #ddd;
+	/* background-color: #ddd; */
 }
 .container_php {
 	width: 80%;
-	background-color: #ddd;
+	/* background-color: #ddd; */
 }
 .container_mysql{
 	width: 80%;
-	background-color: #ddd;
+	/* background-color: #ddd; */
 }
 .skillsblok {
 	text-align: right;
