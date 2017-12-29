@@ -157,7 +157,7 @@
 		<img class ="fotoleft" src="web_images/section7.jpg" alt="Plank met stokbrood">
 	</div>
 
-<!--_________________________________ Section8 _________________________________-->
+<!--_________________________________ Section1 _________________________________-->
   <div id="section8" class="section8">
 		<center><h1>Contact</h1></center></br>
 
