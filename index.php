@@ -176,8 +176,8 @@
 				<label for="email"> <p1>E-mail</p1> </label>
 					<input type="text" id="email" name="email" placeholder="E-mail">
 
-				<label for="subject"> <p1>Subject</p1> </label>
-					<textarea id="subject" name="subject" placeholder="Write something" style="height:130px"></textarea>
+				<label for="subject1"> <p1>Subject</p1> </label>
+					<textarea id="subject1" name="subject1" placeholder="Write something" style="height:130px"></textarea>
 
 				<input type="submit" value="submit"> </input>
 			</form>

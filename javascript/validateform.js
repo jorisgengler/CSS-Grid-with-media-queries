@@ -1,7 +1,7 @@
 function validateForm() {
     var x = document.forms["contact_formulier"]["email"].value;
     var y = document.forms["contact_formulier"]["firstname"].value;
-    var m = document.forms["contact_formulier"]["subject"].value;
+    var m = document.forms["contact_formulier"]["subject1"].value;
 
     var atpos = x.indexOf("@");
     var dotpos = x.lastIndexOf(".");
