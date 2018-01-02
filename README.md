@@ -8,3 +8,4 @@ Deze site is opgebouwd in CSS-Grid en heeft de volgende functies,
 * Scrollreveal
 * Smooth page scroll
 * Media queries (onder de 768px zullen de secties onderelkaar staan)
+* contact formulier met validate en email zend
