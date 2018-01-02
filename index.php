@@ -20,6 +20,8 @@
 
 
 
+
+
 </head>
 
 <body>
@@ -159,14 +161,17 @@
 
 <!--_________________________________ Section1 _________________________________-->
   <div id="section8" class="section8">
+
 		<center><h1>Contact</h1></center></br>
+
 
 		<!--contact formulier -->
 		<div class="container">
-			<form  action="action_page.php" method="post">
+			<form name="contact_formulier" action="action_page_contact.php" onsubmit="return validateForm();" method="post">
 
 				<label for="firstname"> <p1>Name</p1></label>
 					<input type="text" id="firstname" name="firstname" placeholder="Your name">
+
 
 				<label for="email"> <p1>E-mail</p1> </label>
 					<input type="text" id="email" name="email" placeholder="E-mail">
@@ -174,7 +179,7 @@
 				<label for="subject"> <p1>Subject</p1> </label>
 					<textarea id="subject" name="subject" placeholder="Write something" style="height:130px"></textarea>
 
-				<input type="submit" value="submit">                      </input>
+				<input type="submit" value="submit"> </input>
 			</form>
 		</div>
 
@@ -193,7 +198,7 @@
 	<!-- Photo inside page-->
 	<script src="javascript/scrollphoto.js" type="text/javascript"></script>
 
-
+		<script src="javascript/validateform.js"></script>
 
 </body>
 
