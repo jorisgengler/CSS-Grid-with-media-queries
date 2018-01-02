@@ -1,7 +1,7 @@
 # CSS-Grid with Media Query
 ---
 
-['Demo'](https://www.grid.jorisgengler.nl/)
+[Demo](https://www.grid.jorisgengler.nl/)
 ---
 Deze site is opgebouwd in CSS-Grid en heeft de volgende functies,
 
