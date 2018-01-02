@@ -11,16 +11,14 @@ function validateForm() {
         alert("Name must be filled out");
         return false;
     }
-
 //---------------------------------- Email ----------------------------------//
     if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
         alert("Not a valid e-mail address");
         return false;
     }
-//---------------------------------- Name ----------------------------------//
-        if (m == "") {
-            alert("Write something");
-            return false;
-        }
-
+//---------------------------------- Text field ----------------------------------//
+    if (m == "") {
+        alert("Write something");
+        return false;
+    }
 }
