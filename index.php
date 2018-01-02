@@ -62,12 +62,12 @@
 
 <!--_________________________________ Section2 _________________________________-->
   <div id="section2" class="section2">
- 		<div id="object1" class="object1"><img class ="fotoright" src="web_images/section1.jpg" alt="Plank met stokbrood"></div>
+ 		<div id="object1" class="object1"><img class ="fotoright" src="web_images/section1.jpg" alt="Asperge op dienblad in hand"></div>
   </div>
 
 <!--_________________________________ Section3 _________________________________-->
   <div id="section3" class="section3">
- 		<img class ="fotoleft" src="web_images/section3.jpg" alt="Plank met stokbrood">
+ 		<img class ="fotoleft" src="web_images/section3.jpg" alt="Asperges">
   </div>
 
 <!--_________________________________ Section4 _________________________________-->
@@ -156,10 +156,10 @@
 
 <!--_________________________________ Section7 _________________________________-->
   <div id="section7" class="section7">
-		<img class ="fotoleft" src="web_images/section7.jpg" alt="Plank met stokbrood">
+		<img class ="fotoleft" src="web_images/section7.jpg" alt="Asperges op dienblad">
 	</div>
 
-<!--_________________________________ Section1 _________________________________-->
+<!--_________________________________ Section8 _________________________________-->
   <div id="section8" class="section8">
 
 		<center><h1>Contact</h1></center></br>
@@ -197,8 +197,8 @@
 
 	<!-- Photo inside page-->
 	<script src="javascript/scrollphoto.js" type="text/javascript"></script>
-
-		<script src="javascript/validateform.js"></script>
+	<!-- Email Validate-->
+	<script src="javascript/validateform.js"></script>
 
 </body>
 
